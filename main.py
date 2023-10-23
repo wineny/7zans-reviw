@@ -6,7 +6,7 @@ from langchain.chat_models import ChatOpenAI
 chat_model = ChatOpenAI()
 
 st.title('일곱잔 리뷰 답글 프로젝트')
-st.subheader('답글을 자동으로 생성해봐요 :blue[for 유아 사장님] :sunglasses:')
+st.subheader('답글을 자동으로 생성해봐요 :blue[for 사장님] :sunglasses:')
 
 content = st.text_input('리뷰를 입력해주세요.')
 
